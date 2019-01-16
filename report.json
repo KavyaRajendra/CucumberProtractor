@@ -1,0 +1,96 @@
+[
+  {
+    "description": "sample test for Opencart with before and after scenario",
+    "assertions": [
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": false,
+        "errorMsg": "expected 'Your account has exceeded allowed number of login attempts. Please try again in 1 hour.\\n×' to equal 'No match for E-Mail and/or Password.'",
+        "stackTrace": "AssertionError: expected 'Your account has exceeded allowed number of login attempts. Please try again in 1 hour.\\n×' to equal 'No match for E-Mail and/or Password.'"
+      }
+    ],
+    "events": [
+      {
+        "emitterEvent": "testPass",
+        "name": "Given Opencart Url is been open",
+        "category": "Test Opencart page: sample test for Opencart with before and after scenario",
+        "durationMillis": 2,
+        "sourceLocation": {
+          "filePath": "D:\\for kavya\\protractorCucumber\\features\\opencart.feature",
+          "line": 6,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "Then I should see \"OpenCart - Open Source Shopping Cart Solution\" as page title",
+        "category": "Test Opencart page: sample test for Opencart with before and after scenario",
+        "durationMillis": 5110,
+        "sourceLocation": {
+          "filePath": "D:\\for kavya\\protractorCucumber\\features\\opencart.feature",
+          "line": 7,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "When I Click on login",
+        "category": "Test Opencart page: sample test for Opencart with before and after scenario",
+        "durationMillis": 2,
+        "sourceLocation": {
+          "filePath": "D:\\for kavya\\protractorCucumber\\features\\opencart.feature",
+          "line": 8,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "And Enter \"username\" and \"password\"",
+        "category": "Test Opencart page: sample test for Opencart with before and after scenario",
+        "durationMillis": 2,
+        "sourceLocation": {
+          "filePath": "D:\\for kavya\\protractorCucumber\\features\\opencart.feature",
+          "line": 9,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "When I click on the Login Button",
+        "category": "Test Opencart page: sample test for Opencart with before and after scenario",
+        "durationMillis": 1,
+        "sourceLocation": {
+          "filePath": "D:\\for kavya\\protractorCucumber\\features\\opencart.feature",
+          "line": 10,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testFail",
+        "name": "Then I should see error message",
+        "category": "Test Opencart page: sample test for Opencart with before and after scenario",
+        "durationMillis": 3295,
+        "sourceLocation": {
+          "filePath": "D:\\for kavya\\protractorCucumber\\features\\opencart.feature",
+          "line": 11,
+          "column": 1
+        }
+      }
+    ],
+    "duration": 8412
+  }
+]
